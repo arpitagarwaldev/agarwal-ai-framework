@@ -3,7 +3,7 @@
 ### **A**gent-first · **G**overnance-driven · **A**lgorithm-optimized · **R**esilient · **W**orkflow-aware · **A**utonomous · **L**ifecycle-managed
 
 ---
-
+build the 
 ## A Seven-Layer, Future-Native AI Delivery & Intelligence Framework
 
 The AGARWAL Framework is a next-generation AI transformation framework designed for engineering leaders, AI architects, delivery managers, and quantum-ready organizations navigating the post-GPT era (2026+).
@@ -99,9 +99,8 @@ agarwal_ai/
 
 ---
 
-## 📚 References & Inspiration
+## 📚 References
 
-- Inspired by the [PATEL AI Delivery Framework](https://aiwithpradeep.com/) by Pradeep Patel
 - Model Context Protocol (MCP) — Anthropic's open standard for AI-tool connectivity
 - Agent2Agent Protocol (A2A) — Google's inter-agent communication standard
 - IBM Quantum Roadmap 2026 — Quantum advantage targets

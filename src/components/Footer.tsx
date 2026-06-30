@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Cpu, GitBranch, Link, ExternalLink } from "lucide-react";
+import { Cpu, GitBranch, Link } from "lucide-react";
 
 export function Footer() {
   return (
@@ -92,17 +92,6 @@ export function Footer() {
                   </a>
                 </li>
               ))}
-              <li>
-                <a
-                  href="https://aiwithpradeep.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-slate-500 hover:text-slate-300 transition-colors inline-flex items-center gap-1"
-                >
-                  Inspired by PATEL Model
-                  <ExternalLink className="w-3 h-3" />
-                </a>
-              </li>
             </ul>
           </div>
         </motion.div>
