@@ -1,0 +1,23 @@
+{
+  "name": "@agarwal-ai/agents",
+  "version": "1.0.0",
+  "description": "Agent-First Architecture plugin — multi-agent orchestration, MCP integration, agent patterns",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": ["ai", "agents", "mcp", "orchestration", "multi-agent", "autonomous"],
+  "license": "MIT",
+  "dependencies": {
+    "@agarwal-ai/core": "workspace:*"
+  }
+}

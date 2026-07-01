@@ -1,0 +1,23 @@
+{
+  "name": "@agarwal-ai/metrics",
+  "version": "1.0.0",
+  "description": "Adaptive Statistics & Metrics plugin — AQI scoring, AADV-Next, Bayesian estimation, evaluation",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": ["metrics", "aqi", "statistics", "bayesian", "evaluation", "ai-metrics"],
+  "license": "MIT",
+  "dependencies": {
+    "@agarwal-ai/core": "workspace:*"
+  }
+}

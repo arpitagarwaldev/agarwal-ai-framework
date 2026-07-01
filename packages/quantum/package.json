@@ -1,0 +1,23 @@
+{
+  "name": "@agarwal-ai/quantum",
+  "version": "1.0.0",
+  "description": "Quantum-Classical Hybrid plugin — QRI scoring, crypto-agility, quantum readiness assessment",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": ["quantum", "qml", "post-quantum-crypto", "hybrid", "quantum-readiness"],
+  "license": "MIT",
+  "dependencies": {
+    "@agarwal-ai/core": "workspace:*"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@agarwal-ai/core",
+  "version": "1.0.0",
+  "description": "Core utilities, types, and configuration for the AGARWAL AI Framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": ["ai", "framework", "agarwal", "agents", "quantum", "governance"],
+  "license": "MIT",
+  "peerDependencies": {
+    "zod": "^3.22.0"
+  }
+}

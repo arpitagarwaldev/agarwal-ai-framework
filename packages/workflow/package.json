@@ -1,0 +1,24 @@
+{
+  "name": "@agarwal-ai/workflow",
+  "version": "1.0.0",
+  "description": "Workflow Autonomy Engine plugin — pipeline orchestration, dynamic stages, decision gates",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch"
+  },
+  "keywords": ["workflow", "pipeline", "orchestration", "sdlc", "automation", "ci-cd"],
+  "license": "MIT",
+  "dependencies": {
+    "@agarwal-ai/core": "workspace:*",
+    "@agarwal-ai/agents": "workspace:*"
+  }
+}
