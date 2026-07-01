@@ -11,6 +11,7 @@ const navLinks = [
   { href: "#metrics", label: "Metrics" },
   { href: "#maturity", label: "Maturity" },
   { href: "#future", label: "Future" },
+  { href: "/plugins", label: "Plugins" },
 ];
 
 export function Navbar() {
