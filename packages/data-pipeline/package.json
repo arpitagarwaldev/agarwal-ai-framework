@@ -1,0 +1,11 @@
+{
+  "name": "@agarwal-ai/data-pipeline",
+  "version": "1.0.0",
+  "description": "Data pipeline plugin — ETL for AI, data validation, schema inference, transformation, streaming",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.mjs", "require": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "tsup src/index.ts --format cjs,esm --dts" },
+  "license": "MIT",
+  "dependencies": { "@agarwal-ai/core": "workspace:*" }
+}

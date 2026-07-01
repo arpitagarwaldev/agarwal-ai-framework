@@ -1,0 +1,11 @@
+{
+  "name": "@agarwal-ai/llm-router",
+  "version": "1.0.0",
+  "description": "Intelligent LLM routing — cost optimization, latency-based routing, model selection, A/B testing, fallback chains",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.mjs", "require": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "tsup src/index.ts --format cjs,esm --dts" },
+  "license": "MIT",
+  "dependencies": { "@agarwal-ai/core": "workspace:*" }
+}

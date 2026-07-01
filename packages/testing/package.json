@@ -1,0 +1,11 @@
+{
+  "name": "@agarwal-ai/testing",
+  "version": "1.0.0",
+  "description": "AI testing toolkit — LLM evaluation, red teaming, regression testing, benchmarks, adversarial probing",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.mjs", "require": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "tsup src/index.ts --format cjs,esm --dts" },
+  "license": "MIT",
+  "dependencies": { "@agarwal-ai/core": "workspace:*" }
+}

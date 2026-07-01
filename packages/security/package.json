@@ -1,0 +1,11 @@
+{
+  "name": "@agarwal-ai/security",
+  "version": "1.0.0",
+  "description": "AI security plugin — prompt injection defense, input sanitization, output filtering, rate limiting, secret detection",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": { ".": { "import": "./dist/index.mjs", "require": "./dist/index.js", "types": "./dist/index.d.ts" } },
+  "scripts": { "build": "tsup src/index.ts --format cjs,esm --dts" },
+  "license": "MIT",
+  "dependencies": { "@agarwal-ai/core": "workspace:*" }
+}
