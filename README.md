@@ -97,15 +97,4 @@ agarwal_ai/
 - **AADV-Next™** (AI-Adjusted Delivery Velocity) — Bayesian delivery velocity accounting for AI agent contributions
 - **TMS** (Trust Mesh Score) — Governance health across the AI system boundary
 
----
 
-## 📚 References
-
-- Model Context Protocol (MCP) — Anthropic's open standard for AI-tool connectivity
-- Agent2Agent Protocol (A2A) — Google's inter-agent communication standard
-- IBM Quantum Roadmap 2026 — Quantum advantage targets
-- DORA Metrics adapted for AI-augmented teams
-
----
-
-*Framework Version: 1.0.0 | Created: June 2026 | License: MIT*
