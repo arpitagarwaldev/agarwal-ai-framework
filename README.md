@@ -34,33 +34,51 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="https://github.com/arpitagarwaldev/agarwal-ai-framework/assets/screenshot-hero.png" alt="AGARWAL AI Hero" width="100%" />
+  <a href="https://agarwalai.vercel.app">
+    <img src="https://api.microlink.io/?url=https://agarwalai.vercel.app&screenshot=true&meta=false&embed=screenshot.url&viewport.width=1280&viewport.height=800" alt="AGARWAL AI Framework - Hero" width="100%" style="border-radius: 12px;" />
+  </a>
 </p>
 
-> **Note:** If screenshots don't load, visit the live site at **[agarwalai.vercel.app](https://agarwalai.vercel.app)** to see the full UI.
+<p align="center">
+  <a href="https://agarwalai.vercel.app/plugins">
+    <img src="https://api.microlink.io/?url=https://agarwalai.vercel.app/plugins&screenshot=true&meta=false&embed=screenshot.url&viewport.width=1280&viewport.height=800" alt="AGARWAL AI Plugins Page" width="100%" style="border-radius: 12px;" />
+  </a>
+</p>
 
 <table>
   <tr>
     <td width="50%">
       <strong>🕸️ Interactive AGARWAL Graph</strong><br/>
-      Click any letter to explore that layer's technologies and capabilities.
+      Click any letter to explore that layer's technologies, purpose, and capabilities.
     </td>
     <td width="50%">
       <strong>📊 Metrics Dashboard</strong><br/>
-      AQI, AADV-Next, Trust Mesh Score, and Quantum Readiness Index — all animated.
+      AQI, AADV-Next, Trust Mesh Score, and Quantum Readiness Index with animated bars.
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <strong>🎯 Maturity Model</strong><br/>
-      6-level assessment from Manual to Self-Evolving. Visual bar chart with comparison table.
+      <strong>🎯 6-Level Maturity Model</strong><br/>
+      Assessment from Manual to Self-Evolving. Visual chart with Traditional vs AGARWAL comparison.
     </td>
     <td width="50%">
-      <strong>🔮 Future Horizons</strong><br/>
-      Technology roadmap from 2026 to 2030+ with categorized timeline.
+      <strong>🔮 Future Horizons Timeline</strong><br/>
+      Technology roadmap from 2026 to 2030+ with categorized technology tags.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <strong>📦 Plugin Documentation</strong><br/>
+      14 installable packages with live interactive demos (AQI scoring, Trust Mesh, Pipelines).
+    </td>
+    <td width="50%">
+      <strong>🛡️ Contact & Connect</strong><br/>
+      Direct email, GitHub link, and author information for collaboration.
     </td>
   </tr>
 </table>
+
+> 💡 **Live at:** [agarwalai.vercel.app](https://agarwalai.vercel.app) — fully interactive with particle animations, click-to-explore graph, and runnable demos.
 
 ---
 
